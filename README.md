@@ -2,7 +2,7 @@
 # get_next_line
 <p>It is a function that reads a file and allows you to read a line ending with a newline character from a file descriptor. When you call the function again on the same file, it grabs the next line. This project deals with memory allocation and when to free and allocate memory to prevent leaks.<p/n>
 <b>MANDATORY PART</b>
-<p>• Repeated calls (e.g., using a loop) to your get_next_line() function should let you read the text file pointed to by the file descriptor, one line at a time.<p/>
+<p>• Repeated calls (e.g., using a loop) to your get_next_line() function should let you read the text file pointed to by the file descriptor, one line at a time.</p>
 <p>• Your function should return the line that was read. If there is nothing else to read or if an error occurred, it should return NULL.<p/>
 <p>• Make sure that your function works as expected both when reading a file and when reading from the standard input.<p/>
 <p>• Please note that the returned line should include the terminating \n character, except if the end of the file was reached and does not end with a \n character.<p/> 
